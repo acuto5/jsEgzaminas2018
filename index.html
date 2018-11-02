@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My app</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Gimimo diena</h1>
+        </header>
+        <div class="wrapper">
+            <div class="zodiac">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-10">
+                            <form class="form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <label for="vardas">Vardas: </label>
+                                            </div>
+                                            <div class="col-8">
+                                                <input type="text" id="vardas" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <label for="data">Gimimo data: </label>
+                                            </div>
+                                            <div class="col-8">
+                                                <input type="date" id="data" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-primary" id="btn_show">Rodyti</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5 col-10 offset-0 offset-md-2">
+                            <div id="result"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Žmonės iš Lietuvos</h1>
+            <div class="people">
+                <p id="people"></p>
+            </div>
+
+            <h1>Žmonės iš viso pasaulio</h1>
+            <select name="country" id="country"></select>
+            <div id="peopleFromCountry"></div>
+
+            <h2 class="sex">Tarp duomenų rasta:</h2>
+            <p id="sex"></p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

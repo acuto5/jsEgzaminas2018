@@ -1,0 +1,49 @@
+body {
+    background: #f5f8fa;
+}
+
+.wrapper {
+    margin: 0 60px 60px;
+}
+
+header {
+    height: 140px;
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    align-self: center;
+}
+
+.zodiac{
+    margin-bottom: 50px;
+}
+
+label {
+    min-width: 110px;
+}
+
+.form-group input {
+    min-width: 230px;
+}
+
+.red-border {
+    border: red solid 1px!important;
+}
+
+.people {
+    margin-bottom: 50px;
+}
+
+#peopleFromCountry p {
+    margin-top: 20px;
+}
+
+.sex {
+    margin-top: 20px;
+}
